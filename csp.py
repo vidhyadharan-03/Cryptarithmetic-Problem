@@ -14,7 +14,7 @@ def solve_cryptarithmetic():
         S, E, N, D, M, O, R, Y = perm
 
         # Check for leading zeros
-        TYPE THE CODE HERE USING IF
+        if S == 0 or M == 0:
             continue
 
         # Check the equation constraints
@@ -27,7 +27,8 @@ def solve_cryptarithmetic():
 
     return None
 
-solution = TYPE THE CODE HERE #CALL THE FUNCTION
+# Call the function
+solution = solve_cryptarithmetic()
 
 if solution:
     SEND, MORE, MONEY = solution
